@@ -1,22 +1,25 @@
 {
   "name": "socket-io-client-w-bower",
   "description": "Realtime application framework (client) for Bower",
-  "main": "./dist/socket.io.js",
   "authors": [
     "TunjiDev6"
   ],
-  "license": "MIT",
   "keywords": [
     "socket.io",
     "socket",
     "io",
     "realtime"
   ],
-  "homepage": "https://github.com/tunjidev6/socket.io-client",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tunjidev6/socket.io-client"
+  },
+  "main": "./dist/socket.io.js",
   "ignore": [
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "license": "MIT"
 }
