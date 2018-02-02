@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git://github.com/tunjidev6/socket.io-client"
   },
-  "main": "./dist/socket.io.js",
+  "main": "socket.io.js",
   "ignore": [
     ".*",
     "node_modules",
