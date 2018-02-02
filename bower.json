@@ -1,5 +1,6 @@
 {
   "name": "socket-io-client-w-bower",
+  "version": "2.0.4",
   "description": "Realtime application framework (client) for Bower",
   "authors": [
     "TunjiDev6"
@@ -16,10 +17,14 @@
   },
   "main": "./dist/socket.io.js",
   "ignore": [
+    ".*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "demo*",
+    "src*",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "package.json"
   ],
   "license": "MIT"
 }
